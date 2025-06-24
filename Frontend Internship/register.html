@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>User Registration</h2>
+    <form id="registrationForm">
+        First Name:<br>
+      <input type="text" placeholder="First Name" required />
+      Last Name:<br>
+      <input type="text" placeholder="Last Name" required />
+      Family Name:<br>
+      <input type="text" placeholder="Family Name" required />
+      Email:<br>
+      <input type="email" placeholder="Email" required />
+      Password:<br>
+      <input type="password" placeholder="Password" required />
+      Confirm Password:<br>
+      <input type="password" placeholder="Confirm Password" required />
+    
+      <label>Gender:</label>
+      <select required>
+        <option value="">Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+        Date of Birth:<br>
+
+      <input type="date" placeholder="DOB" required />
+      Country:<br>
+      <input type="text" placeholder="Country" required />
+        State:<br>
+      <input type="text" placeholder="State" required />
+        City:<br>
+      <input type="text" placeholder="City" required />
+        <label>Address:</label><br>
+      <textarea placeholder="Address" required></textarea>
+        <br>
+        <label>Phone Number:</label><br>
+      <input type="tel" placeholder="Phone Number (10 digits)" pattern="[0-9]{10}" required />
+        <br>
+        <label>Mobile Number:</label><br>
+      <input type="text" placeholder="Pincode (6 digits)" pattern="[0-9]{6}" required />
+        
+            <label for="terms"><input type="checkbox" id="terms" required /> I agree to the Terms & Conditions</label><br><br>
+        <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
+
